@@ -7,5 +7,5 @@ function enterClicked () {
   let streetNumber = parseInt(document.getElementById("street-number").value)
 
   // display name and age back to user
-  document.getElementById('user-info').innerHTML = "Your street name is " + streetName + " and your street number is " + streetNumber + " is"
+  document.getElementById('result').innerHTML = "Your street name is " + streetName + " and your street number is " + streetNumber + " is"
 }
